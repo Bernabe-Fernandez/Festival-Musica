@@ -4,7 +4,8 @@
   "description": "Proyecto con Gulp, SASS, HTML",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --watch src/scss:build/css"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Bernabe-Fernandez/Festival-Musica/issues"
   },
-  "homepage": "https://github.com/Bernabe-Fernandez/Festival-Musica#readme"
+  "homepage": "https://github.com/Bernabe-Fernandez/Festival-Musica#readme",
+  "devDependencies": {
+    "sass": "^1.63.3"
+  }
 }
